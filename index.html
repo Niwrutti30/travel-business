@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skyline Travels & Car Rentals | Premium Travel Services</title>
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ambient Glowing Background Blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar glass-card">
+    <a href="#home" class="logo"><i class="fa-solid fa-route"></i> Skyline<span>Travels</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Fleet & Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="https://wa.me/1234567890" target="_blank" class="btn btn-primary nav-btn">
+      <i class="fa-brands fa-whatsapp"></i> Book Now
+    </a>
+    <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </nav>
+
+  <!-- Hero / Home Section -->
+  <header id="home" class="section hero">
+    <div class="glass-card hero-card">
+      <span class="badge">Trusted Travel Partner</span>
+      <h1>Explore The World In Premium Comfort & Style</h1>
+      <p>Affordable luxury car rentals, city transfers, and custom holiday packages with certified professional drivers.</p>
+      <div class="hero-actions">
+        <a href="#gallery" class="btn btn-primary">View Our Fleet</a>
+        <a href="#contact" class="btn btn-secondary">Get Instant Quote</a>
+      </div>
+      <div class="stats-row">
+        <div class="stat-item">
+          <h3>5,000+</h3>
+          <p>Happy Trips</p>
+        </div>
+        <div class="stat-item">
+          <h3>50+</h3>
+          <p>Luxury Vehicles</p>
+        </div>
+        <div class="stat-item">
+          <h3>24/7</h3>
+          <p>On-Call Support</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="section-title">
+      <h2>Why Travel With Us?</h2>
+      <p>We redefine journeys with unmatched safety, punctuality, and luxury.</p>
+    </div>
+    <div class="grid-3">
+      <div class="glass-card feature-card">
+        <i class="fa-solid fa-shield-halved icon"></i>
+        <h3>100% Safe & Sanitized</h3>
+        <p>All our vehicles undergo regular safety checks and thorough deep cleaning before every ride.</p>
+      </div>
+      <div class="glass-card feature-card">
+        <i class="fa-solid fa-user-tie icon"></i>
+        <h3>Verified Drivers</h3>
+        <p>Experienced, courteous, and background-checked drivers ensuring peace of mind throughout your trip.</p>
+      </div>
+      <div class="glass-card feature-card">
+        <i class="fa-solid fa-tags icon"></i>
+        <h3>Transparent Pricing</h3>
+        <p>Zero hidden charges. Toll, parking, and driver allowances are communicated clearly upfront.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fleet / Vehicle Gallery Section -->
+  <section id="gallery" class="section">
+    <div class="section-title">
+      <h2>Our Premium Fleet</h2>
+      <p>Choose from our top-conditioned sedans, SUVs, and luxury coaches.</p>
+    </div>
+    <div class="grid-3">
+      <!-- Vehicle Card 1 -->
+      <div class="glass-card vehicle-card">
+        <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80" alt="Executive Sedan" />
+        <div class="vehicle-info">
+          <div class="vehicle-header">
+            <h3>Executive Sedan</h3>
+            <span class="tag">4 Seater</span>
+          </div>
+          <p>Perfect for airport transfers, corporate travel, and city commutes.</p>
+          <ul class="specs">
+            <li><i class="fa-solid fa-snowflake"></i> Dual AC</li>
+            <li><i class="fa-solid fa-suitcase"></i> 2 Large Bags</li>
+          </ul>
+          <a href="https://wa.me/1234567890?text=Hi,%20I%20want%20to%20book%20Executive%20Sedan" target="_blank" class="btn btn-primary full-width">Inquire Booking</a>
+        </div>
+      </div>
+
+      <!-- Vehicle Card 2 -->
+      <div class="glass-card vehicle-card">
+        <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=600&q=80" alt="Premium SUV" />
+        <div class="vehicle-info">
+          <div class="vehicle-header">
+            <h3>Luxury SUV (4x4)</h3>
+            <span class="tag">7 Seater</span>
+          </div>
+          <p>Ideal for hill stations, long outstation road trips, and family vacations.</p>
+          <ul class="specs">
+            <li><i class="fa-solid fa-wifi"></i> Onboard WiFi</li>
+            <li><i class="fa-solid fa-suitcase"></i> 4 Large Bags</li>
+          </ul>
+          <a href="https://wa.me/1234567890?text=Hi,%20I%20want%20to%20book%20Luxury%20SUV" target="_blank" class="btn btn-primary full-width">Inquire Booking</a>
+        </div>
+      </div>
+
+      <!-- Vehicle Card 3 -->
+      <div class="glass-card vehicle-card">
+        <img src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=600&q=80" alt="Luxury Tourist Bus" />
+        <div class="vehicle-info">
+          <div class="vehicle-header">
+            <h3>Tempo Traveller / Minibus</h3>
+            <span class="tag">12-20 Seater</span>
+          </div>
+          <p>Spacious push-back seats and entertainment system for group tours.</p>
+          <ul class="specs">
+            <li><i class="fa-solid fa-tv"></i> LED Screen</li>
+            <li><i class="fa-solid fa-suitcase"></i> Heavy Luggage</li>
+          </ul>
+          <a href="https://wa.me/1234567890?text=Hi,%20I%20want%20to%20book%20Tempo%20Traveller" target="_blank" class="btn btn-primary full-width">Inquire Booking</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Map Section -->
+  <section id="contact" class="section">
+    <div class="section-title">
+      <h2>Get In Touch & Visit Us</h2>
+      <p>Ready to plan your next journey? Send a message or call directly.</p>
+    </div>
+    
+    <div class="contact-wrapper">
+      <!-- Contact Form -->
+      <div class="glass-card contact-form-card">
+        <h3>Send An Inquiry</h3>
+        <form id="contactForm">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="tel" placeholder="Your Phone Number" required />
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Pickup & Destination (e.g. City A to City B)" required />
+          </div>
+          <div class="form-group">
+            <textarea rows="4" placeholder="Trip Date, Vehicle Preference, or Requirements"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Details & Map Embed -->
+      <div class="glass-card contact-info-card">
+        <h3>Contact Information</h3>
+        <div class="contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <h4>Call Directly</h4>
+            <p>+91 98765 43210 / +91 98765 43211</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <h4>Email Us</h4>
+            <p>booking@skylinetravels.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <h4>Office Location</h4>
+            <p>102, Highway Business Center, Airport Road, City Centre</p>
+          </div>
+        </div>
+
+        <!-- Google Maps Embed -->
+        <div class="map-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.114827173264!2d77.2090!3d28.6139!2m3!1f0!2f0!3f0!3m2!1i1024!2f768!4f13.1!3m3!1m2!1s0x390ce2daa9eb4d0b%3A0x717971125923e5d!2sIndia%20Gate%2C%20New%20Delhi!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
+            width="100%" 
+            height="180" 
+            style="border:0; border-radius: 12px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="glass-card footer">
+    <p>© 2026 Skyline Travels. All Rights Reserved. Designed for premium travel experiences.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
