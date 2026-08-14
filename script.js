@@ -27,7 +27,7 @@ contactForm.addEventListener('submit', (e) => {
   const whatsappMessage = `*New Trip Inquiry*%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Route:* ${route}%0A*Details:* ${details}`;
   
   // Replace with your brother's WhatsApp number (with Country Code, e.g., 91 for India)
-  const businessNumber = "919876543210"; 
+  const businessNumber = "918799897829"; 
   window.open(`https://wa.me/${businessNumber}?text=${whatsappMessage}`, '_blank');
   
   contactForm.reset();
